@@ -33,12 +33,10 @@ function compare() {
         alert("Nice Draw");
     } else if (p > 21){
         alert("Yikes, you drew higher than a 21, you lose.");
-        break;
     } else if (d <= 21) {
         alert("This is going to be close");
     } else if (d > 21){
         alert("Ooh, the dealer drew higher than 21, you win!");
-        break;
     } 
     
     return compare
@@ -57,7 +55,7 @@ function wCheck() {
         lose = lose + 1;
     }
     alert(`Current wins: Player: ${win} , Dealer: ${lose}`)
-    return wCheck()
+
 }
 
 
@@ -66,4 +64,5 @@ function wCheck() {
 
 // askName()
 compare()
-wCheck()
+
+
